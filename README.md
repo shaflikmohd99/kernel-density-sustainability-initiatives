@@ -7,7 +7,7 @@ This repository contains a reusable Python script that automates the generation 
 
 Automating this process removes the manual overhead of the ArcMap/ArcGIS Pro GUI, enabling batch processing and reproducible spatial analysis workflows.
 
-## 🛠️ Tool Configuration
+## Tool Configuration
 The script utilizes the `KernelDensity_sa` geoprocessing tool with the following specific configurations:
 * **Population Field:** `NONE` (Shapes are evaluated based on geometry density only)
 * **Search Radius (Bandwidth):** `200`
@@ -15,7 +15,7 @@ The script utilizes the `KernelDensity_sa` geoprocessing tool with the following
 * **Output Values:** `DENSITIES`
 * **Method:** `PLANAR`
 
-## 🚀 How to Use
+## How to Use
 1. Clone this repository to your local machine.
 2. Ensure you have an active **ArcGIS Spatial Analyst** extension license.
 3. Open the script and modify the `INPUT_LAYER` and `OUTPUT_PATH` variables in the `__main__` block to match your local data structure.
